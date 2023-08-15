@@ -1,0 +1,169 @@
+
+body
+{
+    background-color: rgba(17, 24, 39);
+}
+body p
+{
+    font-family: segoi ui light;    
+}
+p{
+    font-size: 18px;
+}
+/* navigation bar start */
+.navbar
+{
+    background-color: linear-gradient(#c31432,#240b36);
+}
+.navbar a{color:#0dcaf0 ;}
+.navbar a:hover
+{color:#FF0099 ;}
+.navbar span 
+{
+    color: #FF0099;
+}
+.it{
+    font-family: Bradley Hand ITC;
+}
+/* navigation bar end */
+
+/* home start */
+.cont i 
+{
+    color: #0dcaf0;
+}
+.cv
+{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+.cv:hover
+{
+    padding: 5px;
+    border-left: #09c solid 3px;
+    border-right: #09c solid 3px;
+}
+.home
+{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+
+}
+.home span
+{
+    color: #0dcaf0;
+}
+.home h2
+{
+    color: #fff ;
+}
+
+
+/* home end */
+
+/* about start */
+/* edu */
+
+.edu
+{
+    color: #fff;
+    background-image: url(image/slide4.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.edu .fac,h2 
+{
+    color: #0dcaf0;
+}
+.educ
+{
+    border-left: #09c solid 5px ;
+    background-color:#3333337e ;
+}
+/* edu end */
+/* tech start */
+/* .tech
+{
+    height: 400px;
+
+} */
+
+.tech h1 ,span 
+{
+    color: #fff;
+}
+.tech div[class="border"]
+{
+    box-sizing: border-box;
+}
+.crd:hover
+{
+    background-color: #055160;
+}
+    /* tech end */
+
+    /* tool start */
+/* .tool
+{
+    height: 400px;
+} */
+.tool h1 ,span 
+{
+    color: #fff;
+}
+/* tool end */
+
+/* footer */
+.footer
+{
+    position: relative;
+}
+.footer:after
+{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute ;
+    right: 0;
+    top: 50%;
+}
+.footer:before
+{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute ;
+    left: 0;
+    top: 50%;
+}
+/* end footer */
+/* gal start */
+.gal p ,caption,h1
+{
+    color: #fff;
+}
+.item 
+{
+    transition: 2s all;
+}
+.item:hover
+{
+    transform: scale(1.05,1.05);  
+    border:solid 2px #0d6efd;
+    background-image:linear-gradient(to right,#0dcaf0,#FF0099) ;
+}
+
+/* gal end */
+/* contact start */
+.form label
+{
+    color: #fff;
+}
+.form .fr
+{
+    border-left: #09c solid 5px ;
+    background-color: #032329;
+}
